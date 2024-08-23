@@ -1,0 +1,23 @@
+{
+  "ShowHidden": false,
+  "ShowAllFiles": false,
+  "CurrentPath": "/seed-dotnet-starter",
+  "Name": "dotnet-starter",
+  "ProjectSettings": [
+    {
+      "Name": "project-name",
+      "Value": "dotnet-starter"
+    }
+  ],
+  "ProjectTranspilers": [
+    {
+      "MatchedTranspiler": {
+        "Name": "OdxmlToCSharpPOCOs",
+        "Description": "Odxml To CSharp POCOs"
+      },
+      "Name": "OdxmlToCSharpPOCOs",
+      "RelativePath": "/ConsoleApp1/DataClasses",
+      "CommandLine": "odxml42/odxml-to-csharp-pocos -i ..\\..\\..\\ODXML\\DataSchema.odxml"
+    }
+  ]
+}
