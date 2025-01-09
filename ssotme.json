@@ -12,12 +12,13 @@
   "ProjectTranspilers": [
     {
       "MatchedTranspiler": {
-        "Name": "OdxmlToCSharpPOCOs",
-        "Description": "Odxml To CSharp POCOs"
+        "Name": "ODXMLToDotNetSDK",
+        "Description": "ODXML-To-DotNet-SDK"
       },
-      "Name": "OdxmlToCSharpPOCOs",
-      "RelativePath": "/ConsoleApp1/DataClasses",
-      "CommandLine": "odxml42/odxml-to-csharp-pocos -i ..\\..\\..\\ODXML\\DataSchema.odxml"
+      "IsSSoTTranspiler": false,
+      "Name": "ODXMLToDotNetSDK",
+      "RelativePath": "/ConsoleApp1",
+      "CommandLine": "odxml-to-dotnet-sdk -i ..\\..\\ODXML\\DataSchema.odxml"
     }
   ]
 }
